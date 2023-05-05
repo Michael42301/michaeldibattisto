@@ -1,11 +1,11 @@
 header{
     background-color:dodgerblue;
     text-align:center;
-    font-size:3rem
+    font-size:3rem;
 }
 
 section {
-    text-align: center;
+    text-align:center;  
 }
 
 
@@ -25,4 +25,24 @@ nav ul li{
 
 section ul li{
     list-style-type:none;
+    text-align:center;
+}
+
+a {
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(/img/road-5089188_960_720.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
