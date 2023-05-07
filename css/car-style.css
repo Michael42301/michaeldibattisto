@@ -31,8 +31,9 @@ h2 {
     font-size:3rem;
     background-image: linear-gradient(150deg, rgb(117, 117, 117), rgb(255, 255, 255));
     margin: 0 auto 20px;
-    width:700px;
+    width:643px;
     border:2px solid;
+    animation: fade-in 2s ease-out
 }
 
 h2 a {
@@ -42,6 +43,8 @@ h2 a {
 
 h2 a:hover{
     text-decoration: underline;
+    transition: all 2s ease;
+    background-color: white;
 }
 
 body {
@@ -115,4 +118,7 @@ div{
     border:2px solid;
 }
 
+img {
+    box-shadow: 4px 4px 3px #3d3d3d;
+}
 

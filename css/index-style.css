@@ -47,13 +47,17 @@ section a {
     text-transform: uppercase;
     text-decoration:none;
     margin: 0 auto 20px;
-   border:2px solid;
-   background-color:white;
+    border:2px solid;
+    background-color:rgb(255, 255, 255);
+    animation: fade-in 2s ease-out
 
 }
 
 section a:hover {
     text-decoration: underline;
+    background-color: rgb(141, 141, 141);
+    transition: all 2s ease;
+    color: rgb(0, 0, 0)
 }
 
 body {
@@ -77,3 +81,9 @@ a {
 p a:hover {
     text-decoration: underline;
 }
+
+img {
+    box-shadow: 4px 4px 3px #3d3d3d;
+}
+
+
