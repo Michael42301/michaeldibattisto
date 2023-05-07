@@ -21,8 +21,9 @@ nav ul:hover{
 header{
     background-image: linear-gradient(50deg, rgb(117, 117, 117), rgb(255, 255, 255));
     text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:3rem;
+    font-style: italic;
 }
 
 h2 {
